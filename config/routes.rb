@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'portfolio/project1'
+
+  get 'portfolio/project2'
+
   root 'pages#homepage'
 
   get '/contact', to: 'pages#contact'

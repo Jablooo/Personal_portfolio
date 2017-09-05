@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background-image: url("/tan.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav {
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  text-align: center;
+}
+
+nav a {
+  font-family: 'Rambla', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  background-color: inherit;
+  border: none;
+  text-align: right;
+}
+
+.dropdown:hover>.dropdown-menu {
+ display: block;
+}
