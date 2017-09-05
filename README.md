@@ -1,24 +1,11 @@
-# README
+#BRIEF
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You are to design, build, deploy and present a portfolio website.
+The website needs to have the following information:
 
-Things you may want to cover:
+1. Your name and contact details.
+2. Links to your Github and LinkedIn accounts.
+3. Information about you to demonstrate your personality.
+4. Your study and work history.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You are allowed to use a CSS library such as Bootstrap or even a theme you found on the internet. It is advised that you demonstrate you have customised the library or theme.
