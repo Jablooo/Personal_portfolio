@@ -19,6 +19,10 @@ body {
   background-image: url("/tan.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  font-family: 'Rambla', sans-serif;
+  font-weight: bold;
+  color: black;
+
 }
 
 nav {
@@ -32,8 +36,6 @@ nav {
 }
 
 nav a {
-  font-family: 'Rambla', sans-serif;
-  font-weight: bold;
   color: black;
 }
 

@@ -2,6 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .jumbotron {
   background-image: url("/mountainDrawing.png");
   background-color:transparent !important;
@@ -50,4 +56,22 @@ p {
 }
 .text p {
   font-weight: normal;
+}
+
+.input_field, .input_message {
+  width: 300px;
+}
+
+.input_message {
+  height: 200px;
+}
+
+.input_button {
+  margin-left: 100px;
+}
+
+.projects {
+  border-radius: 50%;
+  height: 140px ;
+  padding: 10px 10px;
 }
