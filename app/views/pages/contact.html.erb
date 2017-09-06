@@ -1,2 +1,22 @@
-<h1>Pages#contact</h1>
-<p>Find me in app/views/pages/contacts.html.erb</p>
+<div class="container">
+  <div class="row justify-content-center mt-4 mb-2">
+    <h1>Contact me</h1>
+  </div>
+
+  <div class="row justify-content-center">
+    <form action="contact.php" method="post">
+        Your name<br>
+        <input class="input_field mb-2" type="text" name="cf_name"><br>
+        Your e-mail<br>
+        <input class="input_field mb-2" type="text" name="cf_email"><br>
+        Message<br>
+        <textarea class="input_message mb-2" name="cf_message">
+        </textarea>
+
+        <div class="input_button">
+          <input type="submit" value="Send">
+          <input type="reset" value="Clear">
+        </div>
+    </form>
+  </div>
+</div>
