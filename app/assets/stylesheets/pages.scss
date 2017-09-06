@@ -1,6 +1,23 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.jumbotron {
+  background-image: url("/mountainDrawing.png");
+  background-color:transparent !important;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+}
+
+.name {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.1;
+  margin: 50px 45px;
+}
+
 p {
   font-family: 'Rambla', sans-serif;
   font-weight: bold;
@@ -30,4 +47,7 @@ p {
 .fancy span:after {
   left: 100%;
   margin-left: 15px;
+}
+.text p {
+  font-weight: normal;
 }
