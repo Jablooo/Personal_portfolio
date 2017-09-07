@@ -39,11 +39,28 @@ nav a {
   color: black;
 }
 
+.dropdown:hover {
+  color: white !important;
+}
+
+a:hover {
+  color: #fff;
+}
+
 .dropdown:hover>.dropdown-menu {
   display: block;
   background-color: inherit;
   border: none;
-  text-align: right;
+  text-align: center;
+  width: calc(100% - 1rem);
+}
+
+.dropdown-item {
+  background: transparent !important;
+}
+
+.dropdown-item:hover {
+  border: 1px solid black;
 }
 
 .navbar-toggler-icon {
