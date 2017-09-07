@@ -2,27 +2,125 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+// General CSS
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+// END General CSS
 
-.jumbotron {
+//RESPONSIVENESS OF MAIN JUMBOTRON
+// XS devices
+@media (max-width: 479px) {
+  .jumbotron {
   background-image: url("/mountainDrawing.png");
-  background-color:transparent !important;
+  background-color: transparent !important;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 220px;
   width: 100%;
+  }
+  .name {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 0.5;
+    margin: 15px 30px;
+  }
+  .name-container {
+    margin-top: 10px;
+    margin-left: 15px !important;
+  }
 }
 
-.name {
-  font-size: 4rem;
-  font-weight: 300;
-  line-height: 1.1;
-  margin: 50px 45px;
+// Sm devices
+@media (min-width: 480px) and (max-width: 767px) {
+  .jumbotron {
+  background-image: url("/mountainDrawing.png");
+  background-color: transparent !important;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  }
+  .name {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 0.5;
+    margin: 20px 45px;
+  }
+  .name-container {
+    margin-left: 20px !important;
+  }
 }
+
+// Md devices
+@media (min-width: 768px) and (max-width: 991px) {
+  .jumbotron {
+    background-image: url("/mountainDrawing.png");
+    background-color: transparent !important;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+  }
+  .name {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 0.7;
+    margin: 10px 45px;
+  }
+  .name-container {
+    margin-top: 30px;
+    margin-left: 50px !important;
+  }
+}
+
+// L devices
+@media (min-width: 992px) and (max-width: 1199px) {
+  .jumbotron {
+    background-image: url("/mountainDrawing.png");
+    background-color: transparent !important;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 530px;
+    width: 100%;
+  }
+  .name {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: .9;
+    margin: 10px 60px;
+  }
+  .name-container {
+    margin-top: 50px;
+    margin-left: 65px !important;
+  }
+}
+
+// XL devices
+@media (min-width: 1200px) {
+  .jumbotron {
+    background-image: url("/mountainDrawing.png");
+    background-color: transparent !important;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+  }
+  .name {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: .9;
+    margin: 10px 10px;
+    display: inline-block;
+  }
+  .name-container {
+    margin-top: 100px;
+    margin-left: 100px !important;
+  }
+}
+//END OF JUMBOTRON RESPONSIVNESS SECTION
 
 p {
   font-family: 'Rambla', sans-serif;
@@ -30,6 +128,7 @@ p {
   color: black;
 }
 
+//LINES AROUND TEXT IN HOMEPAGE
 .fancy {
   line-height: 0.5;
   text-align: center;
@@ -54,10 +153,20 @@ p {
   left: 100%;
   margin-left: 15px;
 }
+//END OF LINE AROUND TEXT IN HOMEPAGE
+
+// _About CSS
+.text {
+  width: 80%;
+  text-align: center;
+}
+
 .text p {
   font-weight: normal;
 }
+// END _About CSS
 
+// Contact CSS
 .input_field, .input_message {
   width: 300px;
 }
@@ -69,9 +178,16 @@ p {
 .input_button {
   margin-left: 100px;
 }
+// END Contact CSS
+
+// _Portfolio CSS
+.moon {
+  text-align: center;
+}
 
 .projects {
   border-radius: 50%;
   height: 140px ;
   padding: 10px 10px;
 }
+// END _Portfolio CSS
