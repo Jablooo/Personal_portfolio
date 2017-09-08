@@ -39,10 +39,6 @@ nav a {
   color: black;
 }
 
-.dropdown:hover {
-  color: white !important;
-}
-
 a:hover {
   color: #fff;
 }
@@ -68,4 +64,8 @@ a:hover {
   border: 1px solid black;
   border-radius: 3px;
   padding-left: 40px;
+}
+
+.nav-link {
+  margin: 0 4vw;
 }
