@@ -187,25 +187,79 @@ p {
 
 .projects {
   border-radius: 50%;
-  height: 140px ;
+  height: 200px ;
   padding: 10px 10px;
+}
+
+.row-projects {
+  margin: 10px 0
 }
 // END _Portfolio CSS
 
+
+// Craft Section
 .modal-content {
   background-color: black !important;
   opacity: .85;
   border-radius: 1rem;
-  height: 50vh;
-  margin-top: 25vh;
 }
 
-.thumbnail {
-  margin-top: 7vh;
-  width: 25vh;
+.thumbnailv {
+  margin-top: 8vh;
+  width: 40vh;
+}
+
+@media (max-width: 479px) {
+  .modal-contentv {
+    height: 70vh;
+    width: 95vw;
+    margin-top: 15vh;
+  }
+
+  .modal-contenth {
+    height: 50vh;
+    width: 95vw;
+    margin-top: 35vh;
+  }
+}
+
+@media (min-width: 480px) {
+  .modal-contentv {
+    height: 70vh;
+    width: 50vw;
+    margin-top: 15vh;
+  }
+
+  .modal-contenth {
+    height: 50vh;
+    width: 50vw;
+    margin-top: 25vh;
+  }
+}
+
+.thumbnailh {
+  margin-top: 6vh;
+  width: 50vh;
 }
 
 .modal-text {
   color: white;
   text-align: center;
 }
+
+.card {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.btn-primary {
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+
+.btn-primary:hover {
+  border: 1px solid black !important;
+  background-color: transparent !important;
+}
+
+// END Craft Section
