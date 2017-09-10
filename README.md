@@ -9,3 +9,7 @@ The website needs to have the following information:
 4. Your study and work history.
 
 You are allowed to use a CSS library such as Bootstrap or even a theme you found on the internet. It is advised that you demonstrate you have customised the library or theme.
+
+
+Link to presentation
+https://prezi.com/view/W0Z4J5x7ECMsvVkjURm8/
